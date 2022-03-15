@@ -8,7 +8,7 @@ body {
 .head-container {
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 15px 200px;
+    padding: 15px 225px;
     display: flex;
     flex-direction: column;
 }
@@ -44,12 +44,20 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 80px 0;
 }
 
 .main-info h1 {
+    margin: 0;
+    padding: 0;
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8;
+}
+
+.main-info p {
+    margin: 0 0 10px 0;
+    padding: 0;
 }
 
 .main-info img {
