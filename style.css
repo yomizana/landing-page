@@ -93,7 +93,6 @@ ul {
 }
 
 .card {
-    justify-content: center;
     width: 170px;
 }
 
@@ -110,4 +109,9 @@ ul {
     height: 165px;
     width: 165px;
     border-radius: 10px;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    height: 300px;
 }
