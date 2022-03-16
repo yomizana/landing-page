@@ -25,7 +25,8 @@ body {
 .navigation {
     display: flex;
     justify-content: space-between;
-    gap: 40%;
+    align-items: center;
+    gap: 15%;
 }
 
 .navigation h3 {
@@ -33,6 +34,8 @@ body {
     padding: 0;
     font-size: 24px;
     color: #F9FAF8;
+    width: 280px;
+    white-space: nowrap;
 }
 
 ul {
@@ -41,6 +44,15 @@ ul {
     list-style: none;
     display: flex;
     gap: 20px;
+}
+
+ul li {
+    flex: auto;
+    white-space: nowrap;
+}
+
+ul a:hover {
+    text-decoration: underline;
 }
 
 .main-info {
@@ -67,8 +79,9 @@ ul {
 
 .main-info img {
     height: auto;
-    width: 400px;
-    flex: auto;
+    width: 500px;
+    max-width: 80%;
+    flex: 1;
 }
 
 .main-info button {
@@ -81,9 +94,6 @@ ul {
     font-size: 18px;
 }
 
-.left {
-    width: 500px;
-}
 
 .info-container {
     padding-top: 30px;
