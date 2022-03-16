@@ -3,7 +3,7 @@
 body {
     display: flex;
     flex-direction: column;
-    margin: 0 20vh;
+    margin: 0;
     font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(12, 12, 12);
 }
@@ -11,8 +11,8 @@ body {
 .head-container {
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 50px 210px;
     display: flex;
+    padding: 15px 210px;
     flex-direction: column;
 }
 
@@ -79,8 +79,8 @@ ul a:hover {
 
 .main-info img {
     height: auto;
-    width: 500px;
-    max-width: 80%;
+    width: 200vh;
+    max-width: 100%;
     flex: 1;
 }
 
