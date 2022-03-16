@@ -153,4 +153,53 @@ ul {
 
 .call-container {
     background-color: white;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.call-block {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    padding: 60px 120px;
+    gap: 200px;
+    border-radius: 10px;
+}
+
+.call-block button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px 30px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.call-block .description {
+    display: flex;
+    flex-direction: column;
+}
+
+.desc-header {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    font-size: 18px;
+}
+
+.footer p {
+    margin: 0;
+    padding: 0;
 }
